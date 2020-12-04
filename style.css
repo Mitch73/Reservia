@@ -1,7 +1,7 @@
 /*parametre généraux*/
 
 body {
-    font-family: raleway;
+    font-family: raleway! open-sans;
 }
 
 ul {
@@ -19,13 +19,39 @@ a {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 
-ul li{
-    padding: 0 30px;    
+.ul .links {
+    padding: 0 30px;        
 }
 
 /* Section 1*/
 
+#section_one {
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.h1 {
+    margin-bottom: -10px;
+}
+
+.p{
+    margin-bottom: -10px;
+}
+
+.pul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtres .fil{
+    padding: 0 10px;
+}
+
+.push{
+    margin-top: 30px;
+}
