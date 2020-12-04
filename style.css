@@ -1,0 +1,31 @@
+/*parametre généraux*/
+
+body {
+    font-family: raleway;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    color: #0065FC;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+
+ul li{
+    padding: 0 30px;    
+}
+
+/* Section 1*/
+
