@@ -2,7 +2,7 @@
 
 <html lang="fr">
 
-<!-- Metatags, links to Bootstrap and stylesheets -->
+<!-- Metatags, links and stylesheets -->
     <head>
 
         <script src="https://kit.fontawesome.com/03955a31db.js" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    </head>
+</head>
    
     <body>
 
@@ -22,9 +22,9 @@
             <header><img src="images/logo/Reservia.svg" alt="Reservia"></header>
 
             <ul>
-                <li>Hébergement</li>
-                <li>Activités</li>
-                <li>S'incrire</li>
+                <li><a class="nav-link" href="#description">Hébergement</a></li>
+                <li><a class="nav-link" href="#activités">Activités</a></li>
+                <li><a class="nav-link" href="">S'incrire</a></li>
             </ul>
 
         </nav>
@@ -37,30 +37,39 @@
             <p>En pleine centre ville ou en pleine nature</p>
 
                 <form id="form">
-                <i class="fas fa-map-marker-alt fa-2x"></i><input id="Name" name="Recherche" type="Text" placeholder="Ville">
-                <input id="submit" type="button" value="Rechercher">
+                <i class="fas fa-map-marker-alt fa-2x"></i><input id="Name" name="Maeseille France" type="Text" placeholder="Ville">
+                <a href="index.htm"></a><input id="submit" type="button" value="Rechercher"></a>
                 </form>
 
             <p>Filtres</p>
 
             <ul>
-                <li><i class="fas fa-money-bill-wave fa-2x"></i>Economique</li>
-                <li><i class="fas fa-child fa-2x"></i>Familial</li>
-                <li><i class="fas fa-heart fa-2x"></i>Romantique</li>
-                <li><i class="fas fa-dog fa-2x"></i>Animeaux Authorisés</li>
+                <li><a href="index.htm"><i class="fas fa-money-bill-wave fa-2x"></i>Economique</a></li>
+                <li><a href="index.htm"><i class="fas fa-child fa-2x"></i>Familial</a></li>
+                <li><a href="index.htm"><i class="fas fa-heart fa-2x"></i>Romantique</a></li>
+                <li><a href="index.htm"><i class="fas fa-dog fa-2x"></i>Animeaux Authorisés</a></li>
             </ul>
         </section> 
 
 <!-- Section 2 Description -->
-        <section class="description">
+        <section id="description">
 
             <p><i class="fas fa-info-circle fa-2x"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 
              <h2>Hébergement a Marseille</h2>
 
+            <div> 
+
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="">
                 Auberge la Cannebière
                 </figcaption>
@@ -69,6 +78,13 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Hôtel du port
                 </figcaption>
@@ -77,6 +93,13 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les Mouettes">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Hôtel les Mouettes
                 </figcaption>
@@ -85,6 +108,13 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Hôtel de la mer
                 </figcaption>
@@ -93,6 +123,13 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Auberge le Panier
                 </figcaption>
@@ -101,11 +138,18 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Hôtel chez Amina
                 </figcaption>
-            </figure>  
-
+            </figure>
+            </div>
         </section>
 
 <!-- Section 2 continue -->
@@ -113,9 +157,18 @@
 
             <h2>Les plus populaires</h2>
 
+            <div>
+
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Hôtel le soleil du matin
                 </figcaption>
@@ -124,6 +177,13 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau chambre d'Hôtes">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Au coeur de l'eau chambre d'Hôtes
                 </figcaption>
@@ -132,17 +192,27 @@
             <figure class="img-div">
                 <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et blanc">
                 <br>
+                <ul>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                    <li><i class="fas fa-star fa-2x"></i></li>
+                </ul>
                 <figcaption class="img-caption">
                 Hôtel tout bleu et blanc
                 </figcaption>
-            </figure> 
-
+            </figure>
+            
+            </div>
         </article>
 
 <!-- Section 4 Details -->
         <aside id="activités">
 
             <h2>Activités a Marseille</h2>
+
+            <div>
 
             <figure class="img-div">
                 <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
@@ -190,7 +260,9 @@
                 <figcaption class="img-caption">
                 Parc Longchamp
                 </figcaption>
-            </figure>    
+            </figure>
+            
+            </div>
         </aside>
    
         <footer>
@@ -218,6 +290,6 @@
             </ul>
         </footer>
 
-    </body>
+</body>
 
 </html>
