@@ -6,7 +6,7 @@ body {
 
 ul {
     list-style: none;
-    display: inline-flex;
+    display: flex;
     color: #0065FC;
 }
 
@@ -14,10 +14,10 @@ a {
     text-decoration: none;
 }
 
-/* icons */
+/* icones */
 .fas {
     font-size: 15px;
-    padding-right: 10px;
+    padding-right: 10px;    
 }
 
 /* Header*/
@@ -52,31 +52,37 @@ header {
     margin-bottom: -5px;
 }
 
+/* form*/
+
 #form {
     display: flex;
     height: 30px;       
 }
 
+/* Button */
+
 #Rechercher {   
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 0 10px 10px 0;
+    background-color: #0065FC;
+    color: #fff;
+}
+
+/*icone de form*/
+
+.fas:first-child {
+    align-self: center;
 }
 
 /* filtres */
+
 .pul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
-.filtres .fil{
-    padding: 0 10px;
+.fil{
+    padding: 0 5px;    
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
 }
-
-
-
-/* 
-.push{
-    margin-top: 30px;
-}
-*/
