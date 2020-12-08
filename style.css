@@ -1,5 +1,4 @@
 /*parametre généraux*/
-
 body {
     font-family: 'raleway', sans-serif;
 }
@@ -15,12 +14,11 @@ a {
 }
 
 /* icones */
-.fas {
-    font-size: 5px;   
+i {
+    align-self: center;  
 }
 
 /* Header*/
-
 header {
     display: flex;
     justify-content: space-between;
@@ -42,35 +40,26 @@ header {
 }
 
 /* Section 1*/
-
 #section_one {
+    margin-left: 10px;
     align-items: flex-start;
     align-content: flex-start;
 }
 
 /* form*/
-
 #form {
     display: flex;
     height: 30px;       
 }
 
 /* Button */
-
 #Rechercher {   
     border-radius: 0 10px 10px 0;
     background-color: #0065FC;
     color: #fff;
 }
 
-/*icone de form*/
-
-.fas:first-child {
-    align-self: center;
-}
-
 /* filtres */
-
 .pul {
     display: flex;
     align-items: center; 
@@ -81,4 +70,32 @@ header {
     margin: 20px 10px; 
     border: 2px solid #F2F2F2;
     border-radius: 30px;
+    color: #000000;
+}
+
+/*Section 2 Description*/
+#description {
+    margin-left: 10px;
+}
+
+.heber{    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2 solid;
+    border-radius: 30px;
+}
+
+.img-div {
+    border: 3px #F2F2F2 solid;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.one {
+    border: 3px #fff solid;
+    border-radius: 30px;
+    height: 200px;
 }
