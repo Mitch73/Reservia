@@ -18,6 +18,14 @@ i {
     align-self: center;  
 }
 
+.img-caption {
+    color: #000;
+}
+
+p {
+    color: ;
+}
+
 /* Header*/
 header {
     display: flex;
@@ -75,17 +83,20 @@ header {
 
 /*Section 2 Description*/
 #description {
-    margin-left: 10px;
+    margin-left: 10px; 
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2 solid;
+    border-radius: 30px; 
+    width: 800px; 
 }
 
+/*div heber*/
 .heber{    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: #F2F2F2;
-    border: 5px #F2F2F2 solid;
-    border-radius: 30px;
+    
 }
 
 .img-div {
@@ -94,8 +105,52 @@ header {
     background-color: #fff;
 }
 
+/*image heber*/
 .one {
     border: 3px #fff solid;
     border-radius: 30px;
     height: 200px;
+}
+
+/*Section 2 continue*/
+#featured_content{    
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2 solid;
+    border-radius: 30px;
+    width: 600px;
+}
+
+/*div popu*/
+.popu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.img-popu {
+    display: flex;
+    border: 3px #F2F2F2 solid;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.two {
+    border: 3px #fff solid;
+    border-radius: 30px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.img-capt{
+    flex-direction: column;
+    flex-flow: column wrap;
+    margin-top: 20px;
+}
+
+/* div section 2/section 2 continue*/
+.container {
+    display: flex;
+    justify-content: space-between;
 }
