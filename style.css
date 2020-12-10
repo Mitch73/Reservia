@@ -30,7 +30,6 @@ p {
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
 }
 
 .nav-link {
@@ -39,7 +38,11 @@ header {
 }
 
 #navbar {
-    margin-top: 20px;        
+    margin-top: 30px;        
+}
+
+.res {
+    margin: 10px;
 }
 
 #navbar a:hover {
@@ -118,6 +121,7 @@ header {
     border: 5px #F2F2F2 solid;
     border-radius: 30px;
     width: 600px;
+    margin-right: 10px;
 }
 
 /*div popu*/
@@ -158,3 +162,38 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+/*Section 4 Details*/
+#activités {
+    margin: 30px 10px; 
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2 solid;
+    border-radius: 30px;
+}
+
+.three {
+    border: 3px #fff solid;
+    border-radius: 30px;
+    height: 200px;
+}
+
+.acts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer {
+    margin: 30px 10px; 
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2 solid;
+    border-radius: 30px;
+}
+
+/*.foot {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}*/
