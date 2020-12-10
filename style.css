@@ -191,6 +191,11 @@ footer {
     border-radius: 30px;
 }
 
+.propo{
+    display: flex;
+    flex-direction: column;
+}
+
 /*.foot {
     display: flex;
     flex-flow: row wrap;
