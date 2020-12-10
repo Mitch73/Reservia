@@ -38,11 +38,13 @@ header {
 }
 
 #navbar {
-    margin-top: 30px;        
+    margin-top: 30px;
+    margin-right: 30px;        
 }
 
 .res {
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 #navbar a:hover {
@@ -54,13 +56,15 @@ header {
 #section_one {
     margin-left: 10px;
     align-items: flex-start;
-    align-content: flex-start;
+    align-content: flex-start; 
+    margin-left: 30px;
 }
 
 /* form*/
 #form {
     display: flex;
-    height: 30px;       
+    height: 30px;
+    border: none;      
 }
 
 /* Button */
@@ -68,6 +72,7 @@ header {
     border-radius: 0 10px 10px 0;
     background-color: #0065FC;
     color: #fff;
+    border: none;
 }
 
 /* filtres */
@@ -84,20 +89,23 @@ header {
     color: #000000;
 }
 
+.plus {
+    margin-left: 30px;
+}
+
 /*Section 2 Description*/
 #description {
-    margin-left: 10px; 
+    margin-left: 30px; 
     background-color: #F2F2F2;
-    border: 5px #F2F2F2 solid;
+    border: 5px;
     border-radius: 30px; 
-    width: 800px; 
+    width: 60%; 
 }
 
 /*div heber*/
 .heber{    
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
     align-items: flex-start;
     
 }
@@ -106,21 +114,25 @@ header {
     border: 3px #F2F2F2 solid;
     border-radius: 30px;
     background-color: #fff;
+    height: 230px;
 }
 
 /*image heber*/
 .one {
     border: 3px #fff solid;
-    border-radius: 30px;
-    height: 200px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 210px;
+    height: 120px;
 }
 
 /*Section 2 continue*/
-#featured_content{    
+#featured_content{
+    margin-right: 30px;    
     background-color: #F2F2F2;
-    border: 5px #F2F2F2 solid;
+    border: 5px;
     border-radius: 30px;
-    width: 600px;
+    width: 38%;
     margin-right: 10px;
 }
 
@@ -142,8 +154,10 @@ header {
 
 .two {
     border: 3px #fff solid;
-    border-radius: 30px;
-    height: 200px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 150px;
+    height: 154px;
     margin-right: 10px;
 }
 
@@ -165,9 +179,7 @@ header {
 
 /*Section 4 Details*/
 #activités {
-    margin: 30px 10px; 
-    background-color: #F2F2F2;
-    border: 5px #F2F2F2 solid;
+    margin: 30px 30px;
     border-radius: 30px;
 }
 
@@ -184,21 +196,21 @@ header {
     align-items: flex-start;
 }
 
+/*footer*/
 footer {
-    margin: 30px 10px; 
     background-color: #F2F2F2;
-    border: 5px #F2F2F2 solid;
+    border: 5px;
     border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .propo{
     display: flex;
     flex-direction: column;
+    color: #000000;
 }
 
-/*.foot {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-}*/
+.foot {
+    justify-content: flex-start;
+}
