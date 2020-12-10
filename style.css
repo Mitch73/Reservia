@@ -143,11 +143,15 @@ header {
     margin-right: 10px;
 }
 
-.img-capt{
-    flex-direction: column;
+.caption{
+    display: flex;
     flex-flow: column wrap;
     margin-top: 20px;
 }
+
+/*.star {
+    flex-direction: row;
+}*/
 
 /* div section 2/section 2 continue*/
 .container {
