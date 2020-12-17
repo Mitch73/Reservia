@@ -24,13 +24,14 @@ i {
     align-self: center;  
 }
 
-.img-caption {
-    color: #000;
+/*star coluer grey*/
+.grey {
+    color: #8d8c8c;
 }
 
 /* Header*/
 header {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -66,6 +67,7 @@ h1{
     line-height: 1.5em;
 }
 
+/*1eme p*/
 .plein {
     color: rgb(107, 105, 105);
 }
@@ -112,6 +114,7 @@ h1{
     color: #000;
 }
 
+/*div*/
 .pul {
     display: flex;
     align-items: center; 
@@ -144,6 +147,7 @@ h1{
     margin-left: 30px;
 }
 
+/*icone i*/
 .loge {
     background-color: #0065FC;
     color: #fff;
@@ -153,7 +157,7 @@ h1{
 }
 
 #description {
-    margin: 0px 30px; 
+    margin: 0px 30px;
     padding-top: 30px;
     background-color: #F2F2F2;
     border: 5px;
@@ -169,15 +173,14 @@ h2 {
 .heber{    
     display: flex;
     flex-wrap: wrap;
-    padding-top: 15px;
 }
 
 .img-div {
     border: 3px #F2F2F2 solid;
     border-radius: 30px;
     background-color: #fff;
-    height: 230px;
-    margin: 15px 15px 15px 40px;
+    height: 230px;    
+    margin: 20px 15px 15px 45px;
     box-shadow: 1px 1px 10px 0px grey;
 }
 
@@ -191,6 +194,7 @@ h2 {
 }
 
 .img-caption {
+    color: #000;
     line-height: 1.5em;
     padding-left: 15px;
 }
@@ -198,6 +202,20 @@ h2 {
 .star {
     padding-left: 0px;
 }
+
+.affi {
+    color: #000;
+    align-items: flex-end;
+    padding: 30px 0px;
+    margin-left: 40px;
+}
+
+/*.card {
+    display: flex;
+    width: 230px;    
+    margin-left: 1px;
+    padding-top: 2px;
+}*/
 
 /*Section 2 continue*/
 #featured_content{
@@ -210,6 +228,7 @@ h2 {
     width: 28%;
 }
 
+/*h2 populaires*/
 .pp {
     margin-left: 5px;
 }
@@ -332,6 +351,11 @@ h2 {
 /*a*/
 .tag {
     color: #fff;
+}
+
+/*chart populaires*/
+.chart {
+    padding-left: 100px;
 }
 
 /*footer*/
