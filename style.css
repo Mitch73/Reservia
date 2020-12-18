@@ -62,10 +62,6 @@ header {
     padding-top: 30px;
 }
 
-#nabar::after {
-    color: #0065FC;
-}
-
 /* Section 1*/
 h1{
     line-height: 1.5em;
