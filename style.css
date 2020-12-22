@@ -1,102 +1,83 @@
 /*parametre généraux*/
-
 * {
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'raleway', sans-serif;
 }
-
 ul {
     list-style: none;
     display: flex;
     color: #0065FC;
 }
-
 a {
     text-decoration: none;
 }
-
 /* icones */
 i {
     align-self: center;  
 }
-
 /*star coluer grey*/
 .grey {
     color: #8d8c8c;
 }
-
 /* Header*/
 header {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
-
 /*image header*/
 .res {
     margin-top: 10px;
     margin-left: 40px;
 }
-
 .nav-link {
     padding: 20px;
     color: #000000;
 }
-
 .inscrire {
     color: #0065FC;
 }
-
 #navbar {
     margin-right: 40px;
     margin-top: 30px;  
     display: flex;    
 }
-
 #navbar a:hover {
     border-top: solid 2px #0065FC;
     padding-top: 30px;
 }
-
 /* Section 1*/
 h1{
     line-height: 1.5em;
 }
-
 /*1eme p*/
 .plein {
     color: rgb(107, 105, 105);
 }
-
 #section_one {
     margin-left: 10px;
     align-items: flex-start;
     align-content: flex-start; 
     margin-left: 40px;
 }
-
 /* form*/
 #form {
     margin-top: 20px;
     display: flex;
     height: 30px;          
 }
-
 #Name {
     padding: 16px;
     border: 1px solid #f5f3f3;
     color: #000;
 }
-
 ::placeholder {
     color: #000;
     font-weight: bold;
 }
-
 /* Button */
 #Rechercher {
     border-radius: 0px 10px 10px 0px;
@@ -105,11 +86,9 @@ h1{
     color: #fff;
     padding: 9px;
 }
-
 #Rechercher:hover {
     box-shadow: 1px 1px 5px 0px rgb(95, 95, 95);
 }
-
 /* icone de form */
 .position {
     border: 2px;
@@ -119,19 +98,16 @@ h1{
     padding: 10px;
     margin-top: 4px;
 }
-
 /* filtres */
 .push{
     color: #000;
     margin-right: 15px;
 }
-
 /*div*/
 .pul {
     display: flex;
     align-items: center; 
 }
-
 .fil{   
     padding-right: 10px;
     margin: 20px 10px; 
@@ -139,11 +115,9 @@ h1{
     border-radius: 30px;
     color: #000000;
 }
-
 .fil:hover {
     margin-top: 10px;
 }
-
 /*icones filtres*/
 .circ {
     border: 2px;
@@ -153,12 +127,10 @@ h1{
     padding: 10px;
     margin: -1px 10px -2px -2px;
 }
-
 /*Section 2 Description*/
 .plus {
     margin-left: 40px;
 }
-
 /*icone i*/
 .loge {
     color: #0065FC;
@@ -167,7 +139,6 @@ h1{
     border: 1px solid #e1e1e1;
     border-radius: 100%;
 }
-
 #description {
     margin: 0px 40px;
     padding-top: 30px;
@@ -176,11 +147,9 @@ h1{
     border-radius: 30px; 
     width: 60%; 
 }
-
 h2 {
     margin-left: 50px;
 }
-
 /*div heber*/
 .heber{    
     display: flex;
@@ -188,7 +157,6 @@ h2 {
     justify-content: space-between;
     margin: 30px 30px 0px 30px;
 }
-
 .img-div {
     border: 3px #F2F2F2 solid;
     border-radius: 30px;
@@ -197,11 +165,9 @@ h2 {
     margin: 15px;
     box-shadow: 1px 1px 10px 0px grey;
 }
-
 .img-div:hover {
     margin-top: 2px;
 }
-
 /*image heber*/
 .one {
     border: 3px #fff solid;
@@ -211,23 +177,19 @@ h2 {
     height: 140px;
     object-fit: cover;
 }
-
 .img-caption {
     color: #000;
     line-height: 1.5em;
     padding-left: 15px;
 }
-
 .star {
     padding-left: 0px;
 }
-
 .affi {
     color: #000;
     align-items: flex-end;
     margin: 25px 40px;
 }
-
 /*Section 2 continue*/
 #featured_content{
     margin-right: 40px;
@@ -237,19 +199,16 @@ h2 {
     border-radius: 30px;
     width: 33%;
 }
-
 /*h2 populaires*/
 .pp {
     margin-left: 50px;
 }
-
 /*div popu*/
 .popu {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .img-popu {
     display: flex;
     border: 3px #F2F2F2 solid;
@@ -257,13 +216,11 @@ h2 {
     background-color: #fff;
     box-shadow: 1px 1px 10px 0px grey;
     margin-top: 30px;
-    width: 107%;
+    width: 100%;
 }
-
 .img-popu:hover {
     margin-right: 2px;
 }
-
 .two {
     border: 3px #fff solid;
     border-top-left-radius: 30px;
@@ -273,47 +230,39 @@ h2 {
     margin-right: 10px;
     object-fit: cover;
 }
-
 .caption {
     width: 160px;
     color: #000;
     line-height: 1.3em;
     padding-top: 10px;
 }
-
 .img-capt {
     padding-top: 45px;
 }
-
 /*2eme p*/
 .parti{
     padding-top: 10px;
 }
-
 /*chart populaires*/
 .chart {
     padding-left: 110px;
 }
-
 /* div section 2/section 2 continue*/
 .container {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
-
 /*Section 4 Details*/
 .three {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     object-fit: cover;
 }
-
 /*h2*/
 .mar {
     margin: 50px 0px 10px 50px;
 }
-
 .acts {
     display: flex;
     flex-flow: column wrap;
@@ -322,61 +271,50 @@ h2 {
     margin: 0px 40px;
     height: 430px;
 }
-
 .img {
     border-bottom: 3px solid;
     border-radius: 30px;
     box-shadow: 1px 1px 10px 0px grey;
     margin: 15px;
 }
-
 .img:hover {
     box-shadow: 2px 2px 10px 0px #000;
 }
-
 /*images activités*/
 .vp {
     height: 350px;
     width: 288px;
 }
-
 .fdp {
     height: 150px;
     width: 329px;
 }
-
 .idf {
     height: 100px;
     width: 329px;
 }
-
 .pndc {
     height: 350px;
     width: 288px;
 }
-
 .ndlg {
     height: 130px;
     width: 325px;
 }
-
 .pl{
     height: 130px;
     width: 325px;
 }
 /* fin des images*/
-
 .fi-capt{
     padding: 10px;
     color: #000;
     font-weight: bold;
 }
-
 /*a*/
 .tag {
     color: #fff;
 }
-
 /*footer*/
 footer {
     background-color: #F2F2F2;
@@ -384,66 +322,73 @@ footer {
     display: flex;
     justify-content: space-between;    
 }
-
 .propo{
     display: flex;
     flex-direction: column;
     color: #000000;
     line-height: 1.7em;
 }
-
 .propo:hover{
     text-decoration: underline;
 }
-
 .foot {
     margin-top: 30px;
     margin-left: 60px;
 }
-
 h3 {
     margin-bottom: 15px;
 }
-
 @media all and (max-width: 768px) {
+    .pul {
+        flex-wrap: wrap;
+    }
+    /*filtre animaux*/
+    .an {
+        margin-left: 70px;
+        margin-top: 0px;
+    }
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
-
+    /*populaires*/
+    .acts {
+        height: 679px;
+        margin-left: 30px;
+    }
+    .chart {
+        padding-left: 210px;
+    }
     #featured_content {
+        width: 90%;
+        margin: auto;
         order: 1;
-        width: 100%;
     }
-
     .popu{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
+        align-content: center;
     }
-
+    .img-popu {
+        width: 97%;
+    }
+    /*description*/
     #description {
-        margin-top: 40px;
+        width: 90%;
         order: 2;
-        width: 100%;
-        margin-left: 0px;
+        margin-top: 40px;
     }
-
-    .heber{    
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: space-between;
+    .heber{
+        padding: 0px;
     }
-
-    .img-div {
-        margin: 0px;
+    .one {
+        width: 220px;
+        height: 140px;
     }
-
-    .acts {
-        height: auto;
-    }
-
-    .img {
-        width: auto;
+    /*activités*/
+    .three {
+        height: 150px;
+        width: 329px;
     }
 }
