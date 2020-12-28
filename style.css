@@ -35,11 +35,11 @@ header {
     margin-left: 40px;
 }
 .nav-link {
-    padding: 20px;
+    padding: 27px;
     color: #000000;
 }
 #navbar {
-    margin-top: 45px;    
+    margin-top: 30px;    
     margin-right: 30px;
 }
 #navbar a:hover {
@@ -48,12 +48,12 @@ header {
 }
 .inscrire {
     color: #0065FC;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-right: 40px;
 }
-.inscrire:hover {
+.inscrire a:hover {
     border-top: solid 2px #0065FC;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 /* Section 1*/
 h1{
@@ -125,7 +125,7 @@ h1{
     color: #000000;
 }
 .fil:hover {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*icones filtres*/
 .circ {
@@ -347,19 +347,19 @@ footer {
 h3 {
     margin-bottom: 15px;
 }
-@media all and (max-width: 2560px) and (min-width: 768px) {        
+@media all and (max-width: 2560px) and (min-width: 426px) {          
 button {
     display: none;
     overflow: hidden;
     background: unset;
+    }
 }
-}
-@media all and (max-width: 1439px) and (min-width: 769px){        
+@media all and (max-width: 1439px) and (min-width: 769px){            
 button {
     display: none;
     overflow: hidden;
     background: unset;
-}
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -394,7 +394,12 @@ button {
         width: 329px;
     }
 }
-@media all and (max-width: 768px) and (min-width: 426px) {
+@media all and (max-width: 768px) and (min-width: 426px) {          
+button {
+    display: none;
+    overflow: hidden;
+    background: unset;
+    }
     #Rechercher {
         padding: 9px;
         align-self: center;
@@ -455,29 +460,38 @@ button {
 @media all and (max-width: 425px) and (min-width: 320px) {
     /*header*/
     header {
-        width: 140%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .res {
+        margin-left: 16px;
     }
     #navbar {
         order: 2;
         display: flex;
         justify-content: center;
-        border-bottom: 2px solid;
+        border-bottom: 1px solid;
         width: 100%;
     }
+    #navbar a:hover {
+        border-bottom: solid 2px #0065FC;
+        border-top: unset;
+        padding-top: unset;
+    }
     .nav-link {
-        padding: 0px 50px 6px 50px;
+        padding: 0px 40px 10px 22px;
         color: #000000;
     }
-    .nav-link:hover {
-        border-bottom: #0065FC;
-        border-top: unset;
-    }
-    .inscrire{
-        margin-top: -27px;
+    .inscrire {
+        margin-top: -25px;
         margin-left: auto;
         order: 1;
+    }
+    .inscrire a:hover {
+        border-bottom: solid 2px #0065FC;
+        border-top: unset;
+        padding-top: unset;
     }
     /*section one*/
     #section_one {
@@ -531,7 +545,7 @@ button {
     }
     .plus {
         margin-left: 2px;
-        width: 104%;
+        width: 100%;
     }
     /*container popu + heber*/
     .container {
@@ -540,28 +554,39 @@ button {
     }
     #featured_content {
         order: 1;
-        width: 140%;
+        width: 100%;
         border-radius: unset;
     }
     .img-popu {
-        width: 340px;
+        width: 94%;
+        margin-left: 7px;
     }
     .two{
-        width: 140px;
+        width: 41%;
         height: 154px;
+    }
+    .pp{
+        margin-left: 4px;
+    }
+    .chart {
+        padding-left: 62px
     }
     #description {
         order: 2;
         width: 100%;
         margin-top: 30px;
-        margin-left: unset;
+        margin: auto;
         background-color: unset;
     }
     .heber{
         margin: unset;
     }
+    .img-div {
+        margin: 10px;
+        width: 92%;
+    }
     .one {
-        width: 403px;
+        width: 98%;
         height: 150px;
     }
     h2 {
@@ -570,23 +595,25 @@ button {
     /*activités*/
     .acts {
         height: 1358px;
-        margin-left: 0px;
+        margin: auto;
+        width: 100%;
+    }
+    .img {
+        margin-left: 10px;
+        width: 95%;
     }
     .three {
         height: 150px;
-        width: 417px;
+        width: 100%;
     }
     .mar{
         margin-left: 16px;
-    }
-    .img-popu {
-        width: 370px;
     }
     /*footer*/
     footer {
         display: flex;
         flex-direction: column;
-        width: 140%;
+        width: 100%;
     }
     .foot {
         margin-left: 16px;
