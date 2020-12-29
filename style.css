@@ -559,7 +559,7 @@ button {
     }
     .img-popu {
         width: 94%;
-        margin-left: 7px;
+        margin: auto;
         margin-top: 15px;
     }
     .two{
@@ -586,7 +586,8 @@ button {
         margin: unset;
     }
     .img-div {
-        margin: 10px;
+        margin: auto;
+        margin-top: 15px;
         width: 92%;
     }
     .one {
