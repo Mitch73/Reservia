@@ -117,7 +117,7 @@ h1{
     align-items: center; 
     margin-top: 20px;
 }
-.fil{   
+.fil {   
     padding: 8px 13px 9px 0px;
     margin: 20px 10px; 
     border: 2px solid #F2F2F2;
@@ -125,7 +125,7 @@ h1{
     color: #000000;
 }
 .fil:hover {
-    margin-top: 10px;
+    margin-top: 2px;
 }
 /*icones filtres*/
 .circ {
@@ -137,14 +137,18 @@ h1{
     margin: -1px 10px -2px -2px;
 }
 /*Section 2 Description*/
+.plus1 {
+    display: flex;
+}
 .plus {
-    margin-left: 40px;
+    margin-left: 7px;
+    margin-top: 3px;
 }
 /*icone i*/
 .loge {
     color: #0065FC;
     padding: 5px 9px;
-    margin-right: 10px;
+    margin-left: 40px;
     border: 1px solid #e1e1e1;
     border-radius: 100%;
 }
@@ -194,6 +198,7 @@ h2 {
 .star {
     padding-left: 0px;
 }
+/*afficher plus*/
 .affi {
     color: #000;
     align-items: flex-end;
@@ -543,9 +548,11 @@ button {
         margin: 7px 3px;
         font-weight: bold;
     }
+    .plus1 {
+        margin-left: -20px;
+    }
     .plus {
-        margin-left: 16px;
-        width: 80%;
+        margin-top: 18px;
     }
     /*container popu + heber*/
     .container {
@@ -571,6 +578,9 @@ button {
         display: flex;
         justify-content: space-between;
     }
+    .popu {
+        display: block;
+    }
     .chart {
         padding-right: 8px;
         padding-left: unset;
@@ -583,6 +593,7 @@ button {
         background-color: unset;
     }
     .heber{
+        display: block;
         margin: unset;
     }
     .img-div {
@@ -597,11 +608,19 @@ button {
     h2 {
         margin-left: 10px;
     }
+    .affi {
+        margin-left: 16px;
+    }
     /*activités*/
     .acts {
-        height: 1358px;
+        display: block;
+        height: 1252px;
         margin: auto;
         width: 100%;
+    }
+    .mar {
+        margin-top: 10px;
+        margin-left: 10px;
     }
     .img {
         margin-left: 10px;
@@ -610,9 +629,6 @@ button {
     .three {
         height: 150px;
         width: 100%;
-    }
-    .mar{
-        margin-left: 10px;
     }
     /*footer*/
     footer {
