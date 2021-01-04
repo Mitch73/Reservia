@@ -158,7 +158,7 @@ h1{
     background-color: #F2F2F2;
     border: 5px;
     border-radius: 30px; 
-    width: 50%; 
+    width: 60%; 
 }
 h2 {
     margin-left: 50px;
@@ -352,18 +352,14 @@ footer {
 h3 {
     margin-bottom: 15px;
 }
-@media all and (max-width: 2560px) and (min-width: 426px) {          
-button {
+@media all and (max-width: 2560px) and (min-width: 699px) {          
+    button {
     display: none;
     overflow: hidden;
     background: unset;
     }
 }
 @media all and (max-width: 1439px) and (min-width: 769px){            
-button {
-    display: none;
-    overflow: hidden;
-    background: unset;
     }
     .container {
         display: flex;
@@ -399,12 +395,7 @@ button {
         width: 329px;
     }
 }
-@media all and (max-width: 768px) and (min-width: 430px) {          
-button {
-    display: none;
-    overflow: hidden;
-    background: unset;
-    }
+@media all and (max-width: 768px) and (min-width: 700px) {          
     #Rechercher {
         padding: 9px;
         align-self: center;
@@ -459,10 +450,10 @@ button {
     }
     .three {
         height: 150px;
-        width: 329px;
+        width: 320px;
     }
 }
-@media all and (max-width: 429px) {
+@media all and (max-width: 699px) and (min-width: 320px) {
     /*header*/
     header {
         width: 100%;
