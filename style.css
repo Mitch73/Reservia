@@ -359,7 +359,7 @@ h3 {
     background: unset;
     }
 }
-@media all and (max-width: 1439px) and (min-width: 769px){            
+@media all and (max-width: 1024px) and (min-width: 769px){            
     }
     .container {
         display: flex;
